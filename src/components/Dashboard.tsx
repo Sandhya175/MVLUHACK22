@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { Recycle, MapPin, Calendar, TrendingUp, Users, Package, AlertTriangle, CheckCircle } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { ImageWithFallback } from "./Main/ImageWithFallback";
 
 export function Dashboard() {
   const stats = [
@@ -39,35 +39,6 @@ export function Dashboard() {
 
   return (
     <div className="space-y-6">
-      {/* Hero Section */}
-      <div className="relative overflow-hidden rounded-lg bg-gradient-to-r from-green-600 to-blue-600 text-white">
-        <div className="absolute inset-0 bg-black/20" />
-        <div className="relative px-6 py-12 sm:px-12 sm:py-16">
-          <div className="max-w-xl">
-            <h1 className="mb-4">E-Waste Monitoring System</h1>
-            <p className="mb-6 opacity-90">
-              Track, manage, and ensure safe disposal of electronic waste. 
-              Join thousands of users making a positive environmental impact.
-            </p>
-            <div className="flex gap-3">
-              <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100">
-                Register E-Waste
-              </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-                Schedule Pickup
-              </Button>
-            </div>
-          </div>
-        </div>
-        <div className="absolute right-0 top-0 h-full w-1/3 hidden lg:block">
-          <ImageWithFallback
-            src="https://images.unsplash.com/photo-1608653206809-e6a8044173b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVjdHJvbmljJTIwd2FzdGUlMjByZWN5Y2xpbmd8ZW58MXx8fHwxNTc3NTM2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080"
-            alt="Electronic waste recycling"
-            className="h-full w-full object-cover opacity-80"
-          />
-        </div>
-      </div>
-
       {/* Stats Grid */}
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
         {stats.map((stat, index) => (

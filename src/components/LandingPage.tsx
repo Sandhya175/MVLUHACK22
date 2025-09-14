@@ -17,7 +17,7 @@ import {
   Target,
   Package
 } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { ImageWithFallback } from "./Main/ImageWithFallback";
 
 interface LandingPageProps {
   onGetStarted: () => void;
