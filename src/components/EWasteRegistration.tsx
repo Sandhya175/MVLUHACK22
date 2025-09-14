@@ -227,7 +227,7 @@ export function EWasteRegistration() {
                   type="email"
                   value={contactInfo.email}
                   onChange={(e) => setContactInfo({...contactInfo, email: e.target.value})}
-                  placeholder="john@example.com"
+                  placeholder="abc@example.com"
                 />
               </div>
             </div>

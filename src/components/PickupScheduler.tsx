@@ -44,7 +44,7 @@ export function PickupScheduler() {
       id: "1",
       date: "2025-01-14",
       time: "10:00 AM - 12:00 PM",
-      address: "123 Main St, Green Valley, CA",
+      address: "123, Bandra, Mumbai, India",
       items: ["Laptop", "Monitor", "Keyboard"],
       status: "confirmed",
       estimatedWeight: "8.5 kg"
@@ -53,7 +53,7 @@ export function PickupScheduler() {
       id: "2",
       date: "2025-01-12",
       time: "2:00 PM - 4:00 PM",
-      address: "456 Oak Ave, Eco City, CA",
+      address: "123, Bandra, Mumbai, India",
       items: ["Smartphone", "Tablet", "Chargers"],
       status: "completed",
       estimatedWeight: "2.1 kg"

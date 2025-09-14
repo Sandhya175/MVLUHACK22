@@ -26,7 +26,7 @@ export function CollectionCenters() {
     {
       id: "1",
       name: "GreenTech Recycling Center",
-      address: "1234 Eco Drive, Green Valley, CA 90210",
+      address: "123, Bandra, Mumbai, India",
       phone: "+91 919191 91919",
       hours: "Mon-Fri: 8AM-6PM, Sat: 9AM-4PM",
       rating: 4.8,
@@ -38,7 +38,7 @@ export function CollectionCenters() {
     {
       id: "2",
       name: "EcoWaste Solutions",
-      address: "5678 Sustainability St, Eco City, CA 90211",
+      address: "123, Bandra, Mumbai, India",
       phone: "+91 919191 91919",
       hours: "Mon-Sat: 7AM-7PM, Sun: 10AM-3PM",
       rating: 4.6,
@@ -50,7 +50,7 @@ export function CollectionCenters() {
     {
       id: "3",
       name: "Digital Disposal Hub",
-      address: "9876 Tech Boulevard, Silicon Heights, CA 90212",
+      address: "123, Bandra, Mumbai, India",
       phone: "+91 919191 91919",
       hours: "Mon-Fri: 9AM-5PM, Sat: 10AM-2PM",
       rating: 4.4,
@@ -62,7 +62,7 @@ export function CollectionCenters() {
     {
       id: "4",
       name: "Green Planet E-Waste",
-      address: "4321 Earth Ave, Sustainable City, CA 90213",
+      address: "123, Bandra, Mumbai, India",
       phone: "+91 919191 91919",
       hours: "Tue-Sat: 8AM-6PM, Sun: 12PM-4PM",
       rating: 4.7,

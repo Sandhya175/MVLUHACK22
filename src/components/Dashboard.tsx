@@ -13,10 +13,10 @@ export function Dashboard() {
   ];
 
   const recentActivity = [
-    { id: 1, user: "Sarah Johnson", item: "Laptop, Monitor", status: "collected", date: "2 hours ago" },
-    { id: 2, user: "Mike Chen", item: "Smartphone, Tablet", status: "pending", date: "4 hours ago" },
-    { id: 3, user: "Emily Davis", item: "TV, Gaming Console", status: "scheduled", date: "6 hours ago" },
-    { id: 4, user: "Alex Kumar", item: "Desktop PC", status: "collected", date: "1 day ago" }
+    { id: 1, user: "Sandhya Tiwari", item: "Laptop, Monitor", status: "collected", date: "2 hours ago" },
+    { id: 2, user: "Dakshata Kamble", item: "Smartphone, Tablet", status: "pending", date: "4 hours ago" },
+    { id: 3, user: "Satyam Dubey", item: "TV, Gaming Console", status: "scheduled", date: "6 hours ago" },
+    { id: 4, user: "Leena Mondal", item: "Desktop PC", status: "collected", date: "1 day ago" }
   ];
 
   const getStatusBadgeVariant = (status: string) => {

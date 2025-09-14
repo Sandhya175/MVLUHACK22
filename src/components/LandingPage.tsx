@@ -299,9 +299,7 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
               Get Started Now
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
-            <Button size="lg" variant="outline" className="border-gray-600 text-white hover:bg-gray-800">
-              Learn More
-            </Button>
+            
           </div>
         </div>
       </section>
